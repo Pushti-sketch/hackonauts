@@ -27,7 +27,7 @@ def run_flow(message: str) -> dict:
     return response.json()
 
 
-@app.route('/')
+@app.route('/data')
 def home():
     return render_template('index.html')
 
